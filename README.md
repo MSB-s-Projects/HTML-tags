@@ -4,8 +4,10 @@
 
 ### Heading tag
 
-    <h1>This is a Heading of level1.</h1>
-    <h2>This is a Heading of level2.</h2>
+```html
+<h1>This is a Heading of level1.</h1>
+<h2>This is a Heading of level2.</h2>
+```
 
 ---
 
@@ -30,17 +32,37 @@ Output:
 
 ### Line break tag
 
-    <br>
+```html
+First line. <br>Second Line.
+```
+
+---
+
+Output:
+
+First line. <br>Second Line.
+
+---
 
 - Line break tag is used to create a line break.
-- It basically works like the enter key in out keyboard.
+- It basically works like the enter key in our keyboard.
 - Self closing tag.
 
 ## `<hr>` tag
 
 ### Horizontal rule tag
 
-    <hr>
+```html
+<hr>
+```
+
+---
+
+Output:
+
+<hr>
+
+---
 
 - It is used to create a horizontal line in our website.
 - Self closing tag.
@@ -51,7 +73,17 @@ Output:
   
 ## `<center>` tag
 
-    <center>This is a center tag.</center>
+```html
+<center>This is a center tag.</center>
+```
+
+---
+
+Output:
+
+<center>This is a center tag.</center>
+
+---
 
 - It is used to center align the text in our website.
 - It is a deprecated tag. It is not supported in HTML5.
