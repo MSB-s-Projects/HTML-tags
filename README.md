@@ -7,6 +7,20 @@
     <h1>This is a Heading of level1.</h1>
     <h2>This is a Heading of level2.</h2>
 
+---
+
+Output:
+
+<h1>
+    This is a Heading of level 1.
+</h1>
+
+<h2>
+    This is a Heading of Level 2.
+</h2>
+
+---
+
 - Heading tag is used to create headings of different levels.
 - There are 6 levels of heading tags, from `<h1>` to `<h6>`.
 - `<h1>` is the largest heading tag, and `<h6>` is the smallest heading tag.
