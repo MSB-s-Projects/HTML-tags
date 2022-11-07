@@ -12,13 +12,13 @@
     <title>HTML Playbook</title>
   </head>
 
-  <body>
+<body>
     <h1 align="center">HTML playbook</h1>
-    <hr color="black" />
+    <!-- <hr color="black" /> -->
 
-  <ol type="i">
-    <li title="1. <h1>-<h6>">
-      <h2>&lt;h1&gt; - &lt;h6&gt; : Heading Tags</h2>
+<ol type="i">
+<li id="1.<h1>-<h6>">
+  <h2>&lt;h1&gt; - &lt;h6&gt; : Heading Tags</h2>
 
   <strong>Example:</strong>
   <h1>This is a heading of level 1</h1>
@@ -47,12 +47,12 @@
       smallest heading tag.
     </li>
   </ul>
-  </li>
+</li>
 
-  <li title="2. <br>">
-    <h2>&lt;br&gt; : line break tag</h2>
-    <strong>Example:</strong>
-    <p>
+<li id="2.<br>">
+  <h2>&lt;br&gt; : line break tag</h2>
+  <strong>Example:</strong>
+  <p>
     This is a paragraph. <br />
     This is another line in the same paragraph.
   </p>
@@ -73,12 +73,12 @@
       enter key in out keyboard.
     </li>
   </ul>
-  </li>
+</li>
 
-  <li title="3. <hr>">
-    <h2>&lt;hr&gt; : horizontal rule tag</h2>
-    <strong>Example:</strong>
-    <hr />
+<li id="3.<hr>">
+  <h2>&lt;hr&gt; : horizontal rule tag</h2>
+  <strong>Example:</strong>
+  <hr />
 
   <ul>
     <li>Tag Omission: True</li>
@@ -93,15 +93,15 @@
       our website.
     </li>
   </ul>
-  </li>
+</li>
 
-  <li title="4. <center>">
-    <h2>&lt;center&gt; : center tag</h2>
-    <strong>Example:</strong>
-    <center>
-      <h1>This is a heading</h1>
-      <p>This is a paragraph</p>
-    </center>
+<li id="4.<center>">
+  <h2>&lt;center&gt; : center tag</h2>
+  <strong>Example:</strong>
+  <center>
+    <h1>This is a heading</h1>
+    <p>This is a paragraph</p>
+  </center>
 
   <ul>
     <li>Tag Omission: None</li>
@@ -113,23 +113,42 @@
     </li>
     <li>&lt;center&gt; is used to center align the content inside it.</li>
   </ul>
-  </li>
+</li>
 
-  <li title="5. <!DOCTYPE html>">
-    <h2>&lt;!DOCTYPE html&gt;</h2>
-    <strong>Example:</strong>
-    <pre>
-      &lt;!DOCTYPE html&gt;
-      &lt;html&gt;
-        &lt;head&gt;
-          &lt;title&gt;Page Title&lt;/title&gt;
-        &lt;/head&gt;
-        &lt;body&gt;
-          &lt;h1&gt;My First Heading&lt;/h1&gt;
-          &lt;p&gt;My first paragraph.&lt;/p&gt;
-        &lt;/body&gt;
-      &lt;/html&gt;
-    </pre>
+<li id="5.<!-- -->">
+  <h2>&lt;!-- --&gt; : comment tag</h2>
+  <strong>Example:</strong>
+  <pre>
+    &lt;!-- This is a comment --&gt;
+  </pre>
+
+  <ul>
+    <li>Tag Omission: True</li>
+  </ul>
+  <br />
+  <ul>
+    <li>
+      &lt;!-- --&gt; is used to add comments in our HTML code. These
+      comments are not visible to the user.
+    </li>
+  </ul>
+</li>
+
+<li id="6.<!DOCTYPE html>">
+  <h2>&lt;!DOCTYPE html&gt;</h2>
+  <strong>Example:</strong>
+  <pre>
+    &lt;!DOCTYPE html&gt;
+    &lt;html&gt;
+      &lt;head&gt;
+        &lt;title&gt;Page Title&lt;/title&gt;
+      &lt;/head&gt;
+      &lt;body&gt;
+        &lt;h1&gt;My First Heading&lt;/h1&gt;
+        &lt;p&gt;My first paragraph.&lt;/p&gt;
+      &lt;/body&gt;
+    &lt;/html&gt;
+  </pre>
 
   <ul>
     <li>Tag Omission: None</li>
@@ -145,10 +164,10 @@
       what version of HTML the page is written in.
     </li>
   </ul>
-  </li>
+</li>
 
-  <li title="6. <html>">
-    <h2>&lt;html&gt; : HTML tag</h2>
+<li id="7.<html>">
+  <h2>&lt;html&gt; : HTML tag</h2>
 
   <strong>Example:</strong>
   <pre>
@@ -179,10 +198,10 @@
       elements.
     </li>
   </ul>
-  </li>
+</li>
 
-  <li title="7. <head>">
-    <h2>&lt;head&gt; : head tag</h2>
+<li id="8.<head>">
+  <h2>&lt;head&gt; : head tag</h2>
 
   <strong>Example:</strong>
   <pre>
@@ -212,10 +231,10 @@
       scripts, styles, links, etc.
     </li>
   </ul>
-  </li>
+</li>
 
-  <li title="8. <meta>">
-    <h2>&lt;meta&gt; : meta tag</h2>
+<li id="9.<meta>">
+  <h2>&lt;meta&gt; : meta tag</h2>
 
   <strong>Example:</strong>
   <pre>
@@ -330,8 +349,8 @@
   </ul>
 </li>
 
-  <li title="9. <title>">
-    <h2>&lt;title&gt; : title tag</h2>
+<li id="10.<title>">
+  <h2>&lt;title&gt; : title tag</h2>
 
   <strong>Example:</strong>
   <pre>
@@ -369,10 +388,10 @@
       search engine results.
     </li>
   </ul>
-  </li>
+</li>
 
-  <li title="10. <body>">
-    <h2>&lt;body&gt; : body tag</h2>
+<li id="11.<body>">
+  <h2>&lt;body&gt; : body tag</h2>
 
   <strong>Example:</strong>
   <pre>
@@ -417,7 +436,7 @@
   </ul>
 </li>
 
-<li title="11. <p>">
+<li id="12.<p>">
   <h2>&lt;p&gt; : paragraph tag</h2>
 
   <strong>Example:</strong>
@@ -443,10 +462,10 @@
     </li>
     <li>The &lt;p&gt; element is used to define a block of text.</li>
   </ul>
-  </li>
+</li>
 
-  <li title="12. <em>">
-    <h2>&lt;em&gt; : emphasis tag</h2>
+<li id="13.<em>">
+  <h2>&lt;em&gt; : emphasis tag</h2>
 
   <strong>Example:</strong>
   <pre>
@@ -489,10 +508,10 @@
       voice or mood.
     </li>
   </ul>
-  </li>
+</li>
 
-  <li title="13. <strong>">
-    <h2>&lt;strong&gt; : strong tag</h2>
+<li id="14.<strong>">
+  <h2>&lt;strong&gt; : strong tag</h2>
 
   <strong>Example:</strong>
   <pre>
@@ -511,9 +530,7 @@
   <br />
   <ul>
     <li>&lt;strong&gt; is used to define important text.</li>
-    <li>
-      The &lt;strong&gt; element is used to define important text.
-    </li>
+    <li>The &lt;strong&gt; element is used to define important text.</li>
     <li>
       The &lt;strong&gt; tag is a phrase tag. It renders as bold text.
     </li>
@@ -529,16 +546,497 @@
       The &lt;strong&gt; tag is more semantic than the &lt;b&gt; tag.
     </li>
     <li>
-      The &lt;strong&gt; tag is used to define text with strong importance.
+      The &lt;strong&gt; tag is used to define text with strong
+      importance.
     </li>
     <li>
       The &lt;b&gt; tag is used to define bold text without any extra
       importance.
     </li>
   </ul>
-  </li>
+</li>
 
-  <li></li>
-  </ol>
+<li id="15.<ul>">
+  <h2>&lt;ul&gt; : unordered list tag</h2>
+
+  <strong>Example:</strong>
+  <pre>
+    &lt;ul&gt;
+      &lt;li&gt;Item 1&lt;/li&gt;
+      &lt;li&gt;Item 2&lt;/li&gt;
+      &lt;li&gt;Item 3&lt;/li&gt;
+    &lt;/ul&gt;
+  </pre>
+
+  <ul>
+    <li>Tag Omission: None</li>
+    <li><strong>Attributes :</strong> compact, type,</li>
+  </ul>
+  <br />
+  <ul>
+    <li>&lt;ul&gt; is used to define an unordered list.</li>
+    <li>
+      The &lt;ul&gt; element is used to define an unordered list (a list
+      that does not have a number next to each item).
+    </li>
+    <li>
+      The &lt;ul&gt; element is used to group a set of unordered list
+      items.
+    </li>
+    <li>
+      The &lt;ul&gt; element is used to define a list of items in no
+      particular order.
+    </li>
+  </ul>
+</li>
+
+<li id="16.<ol>">
+  <h2>&lt;ol&gt; : ordered list tag</h2>
+
+  <strong>Example:</strong>
+  <pre>
+    &lt;ol&gt;
+      &lt;li&gt;Item 1&lt;/li&gt;
+      &lt;li&gt;Item 2&lt;/li&gt;
+      &lt;li&gt;Item 3&lt;/li&gt;
+    &lt;/ol&gt;
+  </pre>
+
+  <ul>
+    <li>Tag Omission: None</li>
+    <li><strong>Attributes :</strong> compact, reversed, start, type</li>
+  </ul>
+  <br />
+  <ul>
+    <li>&lt;ol&gt; is used to define an ordered list.</li>
+    <li>
+      The &lt;ol&gt; element is used to define an ordered list (a list
+      that has a number next to each item).
+    </li>
+    <li>
+      The &lt;ol&gt; element is used to group a set of ordered list items.
+    </li>
+    <li>
+      The &lt;ol&gt; element is used to define a list of items in a
+      specific order.
+    </li>
+  </ul>
+</li>
+
+<li id="17.<li>">
+  <h2>&lt;li&gt; : list item tag</h2>
+
+  <strong>Example:</strong>
+  <pre>
+    &lt;ul&gt;
+      &lt;li&gt;Item 1&lt;/li&gt;
+      &lt;li&gt;Item 2&lt;/li&gt;
+      &lt;li&gt;Item 3&lt;/li&gt;
+    &lt;/ul&gt;
+  </pre>
+
+  <ul>
+    <li>Tag Omission: None</li>
+    <li><strong>Attributes :</strong> value, type</li>
+  </ul>
+  <br />
+  <ul>
+    <li>&lt;li&gt; is used to define a list item.</li>
+  </ul>
+</li>
+
+<li id="18.<img>">
+  <h2>&lt;img&gt; : image tag</h2>
+
+  <strong>Example:</strong>
+  <pre>
+    &lt;img src="image.jpg" alt="image"&gt;
+  </pre>
+
+  <ul>
+    <li>Tag Omission: True</li>
+    <li>
+      <strong>Attributes :</strong>
+      alt, crossorigin, decoding, fetchpriority, height, ismap, loading,
+      referrerpolicy, sizes, src, srcset, usemap, width, align, border,
+      hspace, longdesc, name, vspace
+    </li>
+  </ul>
+  <br />
+  <ul>
+    <li>&lt;img&gt; is used to define an image.</li>
+    <li>
+      The &lt;img&gt; element is used to embed an image in an HTML page.
+    </li>
+    <li>
+      The &lt;img&gt; tag is empty, it contains attributes only, and does
+      not have a closing tag.
+    </li>
+    <li>The &lt;img&gt; tag has two required attributes: src and alt.</li>
+  </ul>
+</li>
+
+<li id="19.<a>">
+  <h2>&lt;a&gt; : anchor tag</h2>
+
+  <strong>Example:</strong>
+  <pre>
+    &lt;a href="https://www.google.com"&gt;Google&lt;/a&gt;
+  </pre>
+
+  <ul>
+    <li>Tag Omission: False</li>
+    <li>
+      <strong>Attributes :</strong>
+      download, href, hreflang, ping, referrerpolicy, rel, target, type,
+      charset, coords, name, rev, shape
+    </li>
+  </ul>
+  <br />
+  <ul>
+    <li>&lt;a&gt; is used to define a hyperlink.</li>
+    <li>
+      The &lt;a&gt; element is used to define a hyperlink, which is used
+      to link from one page to another.
+    </li>
+    <li>
+      The &lt;a&gt; tag is used to create a link to another document.
+    </li>
+  </ul>
+</li>
+
+<li id="20.<table>">
+  <h2>&lt;table&gt; : table tag</h2>
+
+  <strong>Example:</strong>
+  <pre>
+    &lt;table&gt;
+      &lt;tr&gt;
+        &lt;th&gt;Firstname&lt;/th&gt;
+        &lt;th&gt;Lastname&lt;/th&gt;
+        &lt;th&gt;Age&lt;/th&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;John&lt;/td&gt;
+        &lt;td&gt;Doe&lt;/td&gt;
+        &lt;td&gt;50&lt;/td&gt;
+      &lt;/tr&gt;
+    &lt;/table&gt;
+  </pre>
+
+  <ul>
+    <li>Tag Omission: None</li>
+    <li>
+      <strong>Attributes :</strong>
+      align, bgcolor, border, cellpadding, cellspacing, frame, rules,
+      summary, width
+    </li>
+  </ul>
+  <br />
+  <ul>
+    <li>The &lt;table&gt; element is used to define an HTML table.</li>
+    <li>
+      The &lt;table&gt; element is used to add tables to a web page.
+    </li>
+  </ul>
+</li>
+
+<li id="21.<tr>">
+  <h2>&lt;tr&gt; : table row tag</h2>
+
+  <strong>Example:</strong>
+  <pre>
+    &lt;table&gt;
+      &lt;tr&gt;
+        &lt;th&gt;Firstname&lt;/th&gt;
+        &lt;th&gt;Lastname&lt;/th&gt;
+        &lt;th&gt;Age&lt;/th&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;John&lt;/td&gt;
+        &lt;td&gt;Doe&lt;/td&gt;
+        &lt;td&gt;50&lt;/td&gt;
+      &lt;/tr&gt;
+    &lt;/table&gt;
+  </pre>
+
+  <ul>
+    <li>Tag Omission: None</li>
+    <li>
+      <strong>Attributes :</strong> align, bgcolor, char, charoff, valign
+    </li>
+  </ul>
+  <br />
+  <ul>
+    <li>
+      The &lt;tr&gt; element is used to define a row in an HTML table.
+    </li>
+  </ul>
+</li>
+
+<li id="22.<td>">
+  <h2>&lt;td&gt; : table data tag</h2>
+
+  <strong>Example:</strong>
+  <pre>
+    &lt;table&gt;
+      &lt;tr&gt;
+        &lt;th&gt;Firstname&lt;/th&gt;
+        &lt;th&gt;Lastname&lt;/th&gt;
+        &lt;th&gt;Age&lt;/th&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;John&lt;/td&gt;
+        &lt;td&gt;Doe&lt;/td&gt;
+        &lt;td&gt;50&lt;/td&gt;
+      &lt;/tr&gt;
+    &lt;/table&gt;
+  </pre>
+
+  <ul>
+    <li>Tag Omission: None</li>
+    <li>
+      <strong>Attributes :</strong>
+      align, bgcolor, char, charoff, colspan, headers, rowspan, scope,
+      valign
+    </li>
+  </ul>
+  <br />
+  <ul>
+    <li>
+      The &lt;td&gt; element is used to define a cell in an HTML table.
+    </li>
+  </ul>
+</li>
+
+<li id="23.<theader>">
+  <h2>&lt;theader&gt; : table header tag</h2>
+
+  <strong>Example:</strong>
+  <pre>
+    &lt;table&gt;
+      &lt;thead&gt;
+        &lt;tr&gt;
+          &lt;th&gt;Firstname&lt;/th&gt;
+          &lt;th&gt;Lastname&lt;/th&gt;
+          &lt;th&gt;Age&lt;/th&gt;
+        &lt;/tr&gt;
+      &lt;/thead&gt;
+      &lt;tbody&gt;
+        &lt;tr&gt;
+          &lt;td&gt;John&lt;/td&gt;
+          &lt;td&gt;Doe&lt;/td&gt;
+          &lt;td&gt;50&lt;/td&gt;
+        &lt;/tr&gt;
+      &lt;/tbody&gt;
+    &lt;/table&gt;
+  </pre>
+
+  <ul>
+    <li>Tag Omission: None</li>
+    <li>
+      <strong>Attributes :</strong> align, bgcolor, char, charoff, valign
+    </li>
+  </ul>
+  <br />
+  <ul>
+    <li>
+      The &lt;thead&gt; element is used to group the header content in an
+      HTML table.
+    </li>
+  </ul>
+</li>
+
+<li id="24.<th>">
+  <h2>&lt;th&gt; : table header tag</h2>
+
+  <strong>Example:</strong>
+  <pre>
+    &lt;table&gt;
+      &lt;tr&gt;
+        &lt;th&gt;Firstname&lt;/th&gt;
+        &lt;th&gt;Lastname&lt;/th&gt;
+        &lt;th&gt;Age&lt;/th&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+        &lt;td&gt;John&lt;/td&gt;
+        &lt;td&gt;Doe&lt;/td&gt;
+        &lt;td&gt;50&lt;/td&gt;
+      &lt;/tr&gt;
+    &lt;/table&gt;
+  </pre>
+
+  <ul>
+    <li>Tag Omission: None</li>
+    <li>
+      <strong>Attributes :</strong> align, bgcolor, char, charoff,
+      colspan, headers, height, rowspan, scope, valign, width
+    </li>
+  </ul>
+  <br />
+  <ul>
+    <li>
+      The &lt;th&gt; element is used to define a header cell in an HTML
+      table.
+    </li>
+  </ul>
+</li>
+
+<li id="25.<tbody>">
+  <h2>&lt;tbody&gt; : table body tag</h2>
+
+  <strong>Example:</strong>
+  <pre>
+    &lt;table&gt;
+      &lt;thead&gt;
+        &lt;tr&gt;
+          &lt;th&gt;Firstname&lt;/th&gt;
+          &lt;th&gt;Lastname&lt;/th&gt;
+          &lt;th&gt;Age&lt;/th&gt;
+        &lt;/tr&gt;
+      &lt;/thead&gt;
+      &lt;tbody&gt;
+        &lt;tr&gt;
+          &lt;td&gt;John&lt;/td&gt;
+          &lt;td&gt;Doe&lt;/td&gt;
+          &lt;td&gt;50&lt;/td&gt;
+        &lt;/tr&gt;
+      &lt;/tbody&gt;
+    &lt;/table&gt;
+  </pre>
+
+  <ul>
+    <li>Tag Omission: None</li>
+    <li>
+      <strong>Attributes :</strong> align, bgcolor, char, charoff, valign
+    </li>
+  </ul>
+  <br />
+  <ul>
+    <li>
+      The &lt;tbody&gt; element is used to group the body content in an
+      HTML table.
+    </li>
+  </ul>
+</li>
+
+<li id="26.<form>">
+  <h2>&lt;form&gt; : form tag</h2>
+
+  <strong>Example:</strong>
+  <pre>
+    &lt;form action="demo_form.asp" method="get"&gt;
+      First name: &lt;input type="text" name="fname" /&gt;&lt;br /&gt;
+      Last name: &lt;input type="text" name="lname" /&gt;&lt;br /&gt;
+      &lt;input type="submit" value="Submit" /&gt;
+    &lt;/form&gt;
+  </pre>
+
+  <ul>
+    <li>Tag Omission: None</li>
+    <li>
+      <strong>Attributes :</strong> accept, accept-charset, action,
+      autocomplete, enctype, method, name, novalidate, target
+    </li>
+  </ul>
+  <br />
+  <ul>
+    <li>
+      The &lt;form&gt; element is used to create an HTML form for user
+      input.
+    </li>
+    <li>
+      The &lt;form&gt; element is a container for different types of input
+      elements, such as: text fields, checkboxes, radio buttons, submit
+      buttons, etc.
+    </li>
+    <li>
+      The &lt;form&gt; element is used together with the &lt;input&gt;
+      element to create interactive forms that allow users to input data.
+    </li>
+  </ul>
+</li>
+
+<li id="27.<label>">
+  <h2>&lt;label&gt; : label tag</h2>
+
+  <strong>Example:</strong>
+  <pre>
+    &lt;form action="demo_form.asp" method="get"&gt;
+      &lt;label&gt;First Name:&lt;/label&gt;
+      &lt;input type="text" name="fname" /&gt;&lt;br /&gt;
+    &lt;/form&gt;
+  </pre>
+
+  <ul>
+    <li>Tag Omission: None</li>
+    <li>
+      <strong>Attributes :</strong> for, form, accesskey, class,
+      contenteditable, contextmenu, dir, draggable, dropzone, hidden, id,
+      lang, spellcheck, style, tabindex, title, translate
+    </li>
+  </ul>
+  <br />
+  <ul>
+    <li>
+      The &lt;label&gt; element defines a label for many form elements.
+    </li>
+    <li>
+      The &lt;label&gt; element is useful for screen-reader users, because
+      the screen-reader will read out loud the label when the user focus
+      on the input element.
+    </li>
+    <li>
+      The &lt;label&gt; element also help users who have difficulty
+      clicking on very small regions (such as radio buttons or checkboxes)
+      - when the user clicks on the text within the &lt;label&gt; element,
+      it toggles the radio button/checkbox.
+    </li>
+  </ul>
+</li>
+
+<li id="28.<input>">
+  <h2>&lt;input&gt; : input tag</h2>
+
+  <strong>Example:</strong>
+  <pre>
+    &lt;form action="demo_form.asp" method="get"&gt;
+      First name: &lt;input type="text" name="fname" /&gt;&lt;br /&gt;
+      Last name: &lt;input type="text" name="lname" /&gt;&lt;br /&gt;
+      &lt;input type="submit" value="Submit" /&gt;
+    &lt;/form&gt;
+  </pre>
+
+  <ul>
+    <li>Tag Omission: True</li>
+    <li>
+      <strong>Attributes :</strong> accept, alt, autocomplete, autofocus,
+      checked, dirname, disabled, form, formaction, formenctype,
+      formmethod, formnovalidate, formtarget, height, list, max,
+      maxlength, min, multiple, name, pattern, placeholder, readonly,
+      required, size, src, step, type, value, width
+    </li>
+  </ul>
+  <br />
+  <ul>
+    <li>The &lt;input&gt; element is the most important form element.</li>
+    <li>
+      The &lt;input&gt; element is used to create interactive controls for
+      web-based forms in order to accept data from the user.
+    </li>
+    <li>
+      The &lt;input&gt; element can be displayed in many ways, depending
+      on the type attribute.
+    </li>
+    <li>
+      <p>
+        To See all the types of of &lt;input&gt;
+        <a href="inputs.html">click here</a>.
+      </p>
+    </li>
+  </ul>
+</li>
+
+</ol>
   </body>
 </html>
