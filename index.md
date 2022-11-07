@@ -1031,7 +1031,7 @@
     <li>
       <p>
         To See all the types of of &lt;input&gt;
-        <a href="inputs.html">click here</a>.
+        <a href="inputs.html" target="_blank">click here</a>.
       </p>
     </li>
   </ul>
