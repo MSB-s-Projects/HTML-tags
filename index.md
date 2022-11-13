@@ -1037,6 +1037,84 @@
   </ul>
 </li>
 
+<li id="29.<div>">
+  <h2>&lt;div&gt; : div tag</h2>
+
+  <strong>Example:</strong>
+  <pre>
+    &lt;div&gt;
+      &lt;h1&gt;This is a heading&lt;/h1&gt;
+      &lt;p&gt;This is a paragraph.&lt;/p&gt;
+    &lt;/div&gt;
+  </pre>
+
+  <ul>
+    <li>Tag Omission: None</li>
+    <li>
+      <strong>Attributes :</strong> align, class, contenteditable,
+      contextmenu, dir, draggable, dropzone, hidden, id, lang, spellcheck,
+      style, tabindex, title, translate
+    </li>
+  </ul>
+  <br />
+  <ul>
+    <li>
+      The &lt;div&gt; element is the generic container for flow content.
+    </li>
+    <li>
+      It has no effect on the content or layout until styled using CSS.
+    </li>
+    <li>
+      The &lt;div&gt; element is often used as a container for other HTML
+      elements to style them with CSS (with the help of class or id
+      attributes).
+    </li>
+  </ul>
+</li>
+
+<li id="30.<span>">
+  <h2>&lt;span&gt; : span tag</h2>
+
+  <strong>Example:</strong>
+  <pre>
+    &lt;span&gt;This is a span&lt;/span&gt;
+  </pre>
+
+  <ul>
+    <li>Tag Omission: None</li>
+    <li>
+      <strong>Attributes :</strong> class, contenteditable, contextmenu,
+      dir, draggable, dropzone, hidden, id, lang, spellcheck, style,
+      tabindex, title, translate
+    </li>
+  </ul>
+  <br />
+  <ul>
+    <li>
+      The &lt;span&gt; element is an inline container used to mark up a
+      part of a text, or a part of a document.
+    </li>
+    <li>
+      The &lt;span&gt; element does not introduce any new line or breaks
+      in the content (like the &lt;p&gt; element does).
+    </li>
+    <li>
+      The &lt;span&gt; element is useful for:
+      <ul>
+        <li>Grouping inline-elements to format them with CSS</li>
+        <li>
+          Controlling the behavior of content (using the contenteditable
+          attribute)
+        </li>
+        <li>
+          Controlling the behavior of content (using the contenteditable
+          attribute)
+        </li>
+      </ul>
+    </li>
+  </ul>
+</li>
+
 </ol>
   </body>
 </html>
